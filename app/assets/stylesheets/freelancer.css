@@ -28,23 +28,33 @@ h6 {
   color:black;
 }
 
-
+.logo {
+  width:50px;
+}
 
 #email {
 font-size: 100px;
+
 }
 
 .img-responsive {
   width:auto;
   height:auto;
+  display: block;
+  vertical-align: middle;
+  float:left;
+ 
+  
+
 
 }
 
 
 #style_image {
 
-height:50px;
-width:50px;
+height:100px;
+width:100px;
+float:left;
 }
 
 
@@ -80,7 +90,7 @@ hr.star-primary {
   border-color: gold;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: blue;
   color: gold;
 }
 .img-centered {
@@ -213,7 +223,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #2C3E50;
   color: white;
 }
 @media (max-width: 767px) {
@@ -350,8 +360,8 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
-  background: white;
+  color: gold;
+  background: #1c21a0;
   border: solid 2px white;
 }
 .btn-primary {

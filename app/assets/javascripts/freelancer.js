@@ -22,11 +22,20 @@
         offset: 51
     });
 
-    $(".navbar-brand").hover(function(){
+//     $("#style_image").hover(function(){
+//     $(this).filter(':not(:animated)').animate({ width: "300px"});
+// }, function() {
+//     $(this).animate({ height: "300px"  });
+// });
+
+
+
+    $(".logo").hover(function(){
     $(this).filter(':not(:animated)').animate({ width: "300px"});
 }, function() {
     $(this).animate({ width: "100px" });
 });
+
 
 
     $(".navbar-custom .navbar-toggle").hover(function(){
