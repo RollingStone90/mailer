@@ -2,9 +2,7 @@
     "use strict"; // Start of use strict
 
 
-$(document).ready(function() {
-    alert('Hello world!');
-})
+
 
 
 
