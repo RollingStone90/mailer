@@ -3,7 +3,11 @@
 
 
 
+$ ("button").on("click", function(){
+    var text = $(this).text();
+    alert("This does absolutely nothing!");
 
+});
 
 
 
@@ -55,6 +59,12 @@
             top: 100
         }
     })
+
+
+
+
+
+
 
     // Floating label headings for the contact form
     $(function() {

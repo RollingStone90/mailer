@@ -37,15 +37,17 @@ font-size: 100px;
 
 }
 
-.img-responsive {
-  width:auto;
-  height:auto;
-  display: block;
-  vertical-align: middle;
-  float:left;
- 
-  
+.btn-warning {
+  background-color:#efe93b;
+  color:black;
 
+}
+
+#img-responsive {
+display: block;
+width: 400px;
+height: 400px;
+margin: 0 auto;
 
 }
 
