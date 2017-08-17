@@ -73,8 +73,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  /*content: "\f005";*/
- /* font-family: FontAwesome;*/
+  
   display: inline-block;
   position: relative;
   top: -0.8em;
@@ -108,10 +107,7 @@ header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-/*header img {
-  display: block;
-  margin: 0 auto 20px;
-}*/
+
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -319,7 +315,7 @@ section.success {
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
 }
-.floating-label-form-group:not(:first-child) {
+.floating-label-form-group:not(":first-child") {
   padding-left: 14px;
   border-left: 1px solid #eeeeee;
 }
