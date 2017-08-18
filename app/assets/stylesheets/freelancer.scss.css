@@ -137,15 +137,15 @@ header .intro-text .skills {
   }
 
 .navbar-custom {
-  /*background: black;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
+
 .navbar-custom .navbar-brand {
   color: white;
 }
