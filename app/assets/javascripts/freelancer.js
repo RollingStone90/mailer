@@ -3,7 +3,7 @@
 
 
 
-$ ("button").on("click", function(){
+$ (".btn-warning").on("click", function(){
     var text = $(this).text();
     alert("This does absolutely nothing!");
 
